@@ -5,7 +5,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Starter {
-    private static final Path path = Paths.get("C:\\Users\\Samhain666\\Documents\\Documents");
+    private static final Path path = Paths.get("Enter your root path here");
 
     public static void main(String[] args) {
         DocumentCounter documentCounter = new LocalCounter(path);
